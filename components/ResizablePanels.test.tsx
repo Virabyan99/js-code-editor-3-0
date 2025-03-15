@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import ResizablePanels from './ResizablePanels';
-import { useMotionValue } from 'framer-motion';
+
 
 // Mock Framer Motion to control motion values
 vi.mock('framer-motion', async () => {
